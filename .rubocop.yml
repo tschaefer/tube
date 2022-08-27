@@ -1,0 +1,17 @@
+require: rubocop-rspec
+
+AllCops:
+  NewCops: enable
+
+Style/NegatedIf:
+  Enabled: False
+
+Metrics/MethodLength:
+  CountAsOne:
+    - 'array'
+    - 'hash'
+    - 'heredoc'
+  Max: 25
+
+RSpec/MultipleExpectations:
+  Max: 5
