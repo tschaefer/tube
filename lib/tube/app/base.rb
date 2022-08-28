@@ -25,7 +25,7 @@ module Tube
           Copyright and License
               This software is copyright (c) 2022 by Tobias Schäfer.
 
-              This package is free software; you can redistribute it and/or modify it under the terms of the "MIT License".
+              This package is free software; you can redistribute it and/or modify it under the terms of the "GPLv3.0 License".
         MANPAGE
         TTY::Pager.page(manpage)
 
