@@ -1,0 +1,59 @@
+_tube_shows() {
+    local cur prev words cword
+    _get_comp_words_by_ref cur prev words cword
+
+    local actions='shows'
+    local options='--help --man --version --category'
+    local categories='alternative kids main news regional sports'
+
+    case "$prev" in
+        --category)
+            COMPREPLY=($(compgen -W "${categories}" -- "$cur"))
+            return
+            ;;
+    esac
+
+    if [[ "$cur" == -* ]]; then
+        COMPREPLY=($(compgen -W "${options}" -- "$cur"))
+        return
+    fi
+}
+
+_tube() {
+    local cur prev words cword
+    _get_comp_words_by_ref cur prev words cword
+
+    local actions='shows'
+    local options='--help --man --version'
+
+    local word action
+    for word in "${words[@]}"; do
+        case $word in
+            shows)
+                action=$word
+                break
+                ;;
+        esac
+    done
+
+    case $action in
+        shows)
+            _tube_shows
+            return
+            ;;
+    esac
+
+
+    if [[ "$cur" == -* ]]; then
+        COMPREPLY=($(compgen -W "${options}" -- "$cur"))
+        return
+    fi
+
+    COMPREPLY=($(compgen -W "${actions}" -- "$cur"))
+
+    return
+}
+
+complete -F _tube tube
+
+# vim: ft=sh
