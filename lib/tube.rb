@@ -37,7 +37,7 @@ module Tube
     #
     #   tube = Tube.watch('main')
     def watch(categories = [], file = nil)
-      file ||= "#{File.dirname(__FILE__)}/feeds.json"
+      file ||= "#{File.dirname(__FILE__)}/tube/feeds.json"
       feeds = JSON.parse(File.read(file))
 
       urls = categories.map do |category|
