@@ -2,7 +2,7 @@
 
 require 'json'
 require 'nokogiri'
-require 'open-uri'
+require 'faraday'
 require 'tty-table'
 
 ##
@@ -56,7 +56,7 @@ module Tube
       self
     end
 
-    # Return shows schedule in given format.
+    # Return shows schedule in wanted format.
     #
     # * table
     # * json
@@ -104,20 +104,19 @@ module Tube
     private
 
     def build_shows(url)
-      URI.open(url) do |rss| # rubocop:disable Security/Open
-        feed = Nokogiri::XML(rss)
+      rss = Faraday.get(url).body
+      feed = Nokogiri::XML(rss)
 
-        shows = []
-        feed.xpath('//item').each do |item|
-          shows << Show.new(
-            item.xpath('dc:subject').text,
-            item.xpath('title').text.gsub(/^.+: /, ''),
-            DateTime.parse(item.xpath('dc:date').text.gsub(/:\d+Z$/, ''))
-          )
-        end
-
-        return shows
+      shows = []
+      feed.xpath('//item').each do |item|
+        shows << Show.new(
+          item.xpath('dc:subject').text,
+          item.xpath('title').text.gsub(/^.+: /, ''),
+          DateTime.parse(item.xpath('dc:date').text.gsub(/:\d+Z$/, ''))
+        )
       end
+
+      shows
     end
   end
 end

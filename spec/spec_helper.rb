@@ -107,3 +107,11 @@ RSpec.configure do |config|
     meta[:aggregate_failures] = true unless meta.key?(:aggregate_failures)
   end
 end
+
+# Require and configure VCR.
+require 'vcr'
+
+VCR.configure do |config|
+  config.cassette_library_dir = 'spec/vcr'
+  config.hook_into :faraday
+end

@@ -3,8 +3,8 @@
 source 'https://rubygems.org'
 
 gem 'clamp'
+gem 'faraday'
 gem 'nokogiri'
-gem 'open-uri'
 gem 'tty-table'
 
 group :development, :test do
@@ -12,4 +12,5 @@ group :development, :test do
   gem 'rubocop'
   gem 'rubocop-rspec'
   gem 'simplecov'
+  gem 'vcr'
 end

@@ -12,6 +12,3 @@ Metrics/MethodLength:
     - 'hash'
     - 'heredoc'
   Max: 25
-
-RSpec/MultipleExpectations:
-  Max: 5

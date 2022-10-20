@@ -17,7 +17,15 @@ module Tube
 
           #{help}
           Description:
-              tube
+            Show what to gawk on the (german) tube, currently. The info is gathered
+            from the RSS feeds of https://www.texxas.de and categorized as following.
+
+              * alternative
+              * kids
+              * main
+              * news
+              * regional
+              * sports
 
           Authors:
               Tobias Schäfer <github@blackox.org>

@@ -7,10 +7,8 @@ task :doc do
   system 'rdoc lib/tube.rb'
 end
 
-desc 'Run rspec tests.'
-task :test do
-  system 'rspec'
-end
+require 'rspec/core/rake_task'
+RSpec::Core::RakeTask.new(:spec)
 
 desc 'Start a console session with Tube loaded'
 task :console do
@@ -25,5 +23,5 @@ end
 require 'rubocop/rake_task'
 RuboCop::RakeTask.new
 
-desc "Run tasks 'test' and 'rubocop' by default."
-task default: %w[test rubocop]
+desc "Run tasks 'spec' and 'rubocop' by default."
+task default: %w[spec rubocop]

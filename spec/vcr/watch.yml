@@ -1,0 +1,447 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.texxas.de/tv/spartensenderJetzt.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      server:
+      - nginx/1.10.3
+      date:
+      - Thu, 20 Oct 2022 04:37:19 GMT
+      content-type:
+      - text/xml; charset=ISO-8859-1
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      x-robots-tag:
+      - noindex
+      x-xss-protection:
+      - 1; mode=block
+      x-frame-options:
+      - SAMEORIGIN
+    body:
+      encoding: ISO-8859-1
+      string: '<?xml version="1.0" encoding="ISO-8859-1"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+        xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>teXXas
+        - Sonstige Sparten, was läuft jetzt?</title><link>https://www.texxas.de/tv/programm/jetzt/spartensender/</link><description>Fernsehprogramm
+        für Sonstige Sparten, was läuft jetzt?</description><language>de-de</language><pubDate>Wed,
+        19 Oct 2022 22:00:01 GMT</pubDate><managingEditor>info@texxas.de (teXXas Support)</managingEditor><ttl>5</ttl><sy:updatePeriod>daily</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><sy:updateBase>2022-10-20T06:37:19Z</sy:updateBase><item><dc:subject>ANIXE
+        HD</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:30:1666243800Z</dc:date><dc:language>de</dc:language><title>ANIXE
+        HD: Infomercial</title><link>https://www.texxas.de/tv/sendung/100_2752aa6334af5eb2/Infomercial/</link><description><![CDATA[<img
+        src="https://imgtv.texxas.de/sendungen/275_B2DE9D9AAB12E6573073C68DAE9B64E4.jpg"
+        alt="Infomercial" hspace="5" align="left" border="0">20.10.2022 06:30 - 08:00<br>Infomercial.
+        Bestellen Sie das Produkt Ihrer Wahl bequem per Telefon, Fax, Onlineshop oder
+        E-Mail.]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/100_2752aa6334af5eb2/Infomercial/</guid></item><item><dc:subject>ARD
+        Alpha</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:30:1666243800Z</dc:date><dc:language>de</dc:language><title>ARD
+        Alpha: Grundkurs Englisch</title><link>https://www.texxas.de/tv/sendung/100_2102c61717f23354/Grundkurs+Englisch/</link><description><![CDATA[20.10.2022
+        06:30 - 07:00<br>The Player - Sports and More]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/100_2102c61717f23354/Grundkurs+Englisch/</guid></item><item><dc:subject>ARTE</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:15:1666242900Z</dc:date><dc:language>de</dc:language><title>ARTE:
+        Kadoua und die Elefanten</title><link>https://www.texxas.de/tv/sendung/101_1579622572/Kadoua+und+die+Elefanten/</link><description><![CDATA[<img
+        src="https://imgtv.texxas.de/sendungen/101_251673955.jpg" alt="Kadoua und
+        die Elefanten" hspace="5" align="left" border="0">20.10.2022 06:15 - 07:10]]></description><guid
+        isPermaLink="true">https://www.texxas.de/tv/sendung/101_1579622572/Kadoua+und+die+Elefanten/</guid></item><item><dc:subject>Bibel
+        TV</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:30:1666243800Z</dc:date><dc:language>de</dc:language><title>Bibel
+        TV: Heilige Messe Salzburger Dom</title><link>https://www.texxas.de/tv/sendung/100_276b884244346df7/Heilige+Messe+Salzburger+Dom/</link><description><![CDATA[<img
+        src="https://imgtv.texxas.de/sendungen/276_F7DD28923D22CEBD888AB5BDCCE321C0.jpg"
+        alt="Heilige Messe Salzburger Dom" hspace="5" align="left" border="0">20.10.2022
+        06:30 - 07:00<br>20.10.22<br>Katholischer Gottesdienst live zum Mitfeiern:
+        montags bis freitags immer um 6.30 Uhr morgens aus dem Salzburger Dom. In
+        ruhiger morgendlicher Atmosphäre und mit einem Impuls zum jeweiligen Tagesheiligen
+        geistlich in den Tag starten. Zelebrant: Dompfarrer Roland Rasser]]></description><guid
+        isPermaLink="true">https://www.texxas.de/tv/sendung/100_276b884244346df7/Heilige+Messe+Salzburger+Dom/</guid></item><item><dc:subject>Comedy
+        Central</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:20:1666243200Z</dc:date><dc:language>de</dc:language><title>Comedy
+        Central: The Cleveland Show</title><link>https://www.texxas.de/tv/sendung/101_1584219385/The+Cleveland+Show/</link><description><![CDATA[20.10.2022
+        06:20 - 06:45<br>Schluss mit den Faxen]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1584219385/The+Cleveland+Show/</guid></item><item><dc:subject>DMAX</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:00:1666242000Z</dc:date><dc:language>de</dc:language><title>DMAX:
+        Outback Car Hunters</title><link>https://www.texxas.de/tv/sendung/101_1583956495/Outback+Car+Hunters/</link><description><![CDATA[20.10.2022
+        06:00 - 06:50<br>Kleiner Bongo - ganz groß]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1583956495/Outback+Car+Hunters/</guid></item><item><dc:subject>HGTV</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:35:1666244100Z</dc:date><dc:language>de</dc:language><title>HGTV:
+        Gartln mit Starkl</title><link>https://www.texxas.de/tv/sendung/101_1583956650/Gartln+mit+Starkl/</link><description><![CDATA[20.10.2022
+        06:35 - 07:00<br>Episode 30<br>In Europas erster, ökologischen Gartenschau
+        "Garten Tulln" erzählt Thomas Uibel von der Geschichte der Gartenmesse, vom
+        Aufgabenbereich einer rein biologischen Gartenschau und welchen Teil die Bäume
+        zum Wohl der Menschen beitragen können. Der Gartenprofi Josef Starkl gibt
+        Tipps zur richtigen Rasen- und Baumpflege und verrät außerdem, wie man Rasenkanten
+        richtig verlegt.]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1583956650/Gartln+mit+Starkl/</guid></item><item><dc:subject>kabel
+        eins CLASSICS</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T04:00:1666234800Z</dc:date><dc:language>de</dc:language><title>kabel
+        eins CLASSICS: Angriff aus der Tiefe</title><link>https://www.texxas.de/tv/sendung/101_1594644274/Angriff+aus+der+Tiefe/</link><description><![CDATA[20.10.2022
+        04:00 - 06:40]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1594644274/Angriff+aus+der+Tiefe/</guid></item><item><dc:subject>MTV</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:00:1666242000Z</dc:date><dc:language>de</dc:language><title>MTV:
+        Breakfast Club</title><link>https://www.texxas.de/tv/sendung/101_1583845505/Breakfast+Club/</link><description><![CDATA[20.10.2022
+        06:00 - 08:00]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1583845505/Breakfast+Club/</guid></item><item><dc:subject>ONE</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:10:1666242600Z</dc:date><dc:language>de</dc:language><title>ONE:
+        Cagney &amp; Lacey</title><link>https://www.texxas.de/tv/sendung/100_206f53c11d226266/Cagney+%26amp%3B+Lacey/</link><description><![CDATA[20.10.2022
+        06:10 - 06:55<br>Der Stellvertreter]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/100_206f53c11d226266/Cagney+%26amp%3B+Lacey/</guid></item><item><dc:subject>PRO7
+        MAXX</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:35:1666244100Z</dc:date><dc:language>de</dc:language><title>PRO7
+        MAXX: Storage Wars - Geschäfte in Texas</title><link>https://www.texxas.de/tv/sendung/101_1594655256/Storage+Wars+-+Gesch%C3%A4fte+in+Texas/</link><description><![CDATA[20.10.2022
+        06:35 - 06:55<br>Victors Schatten]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1594655256/Storage+Wars+-+Gesch%C3%A4fte+in+Texas/</guid></item><item><dc:subject>RocketBeans
+        TV</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T04:20:1666236000Z</dc:date><dc:language>de</dc:language><title>RocketBeans
+        TV: Beans VS</title><link>https://www.texxas.de/tv/sendung/101_1601752940/Beans+VS/</link><description><![CDATA[<img
+        src="https://imgtv.texxas.de/sendungen/101_256426809.jpg" alt="Beans VS" hspace="5"
+        align="left" border="0">20.10.2022 04:20 - 07:02<br>Trüberbrook: Angekommen
+        in Trüberbrook: Eine idyllische Gegend mit Geheimnissen<br>In dieser Ausgabe
+        von Beans vs. stellt sich unser Bohnenhaus dem Spiel Trüberbrook, dem Point-and-Click-Adventure
+        aus den Federn der Bild und Ton Fabrik (btf). Es wird gerätselt, gerockt und
+        gehadert auf der Couch und auf den Stühlen dahinter. Und bei euch zuhause
+        auch, wenn ihr dabei seid!]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1601752940/Beans+VS/</guid></item><item><dc:subject>RTL
+        Crime</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:30:1666243800Z</dc:date><dc:language>de</dc:language><title>RTL
+        Crime: Leverage</title><link>https://www.texxas.de/tv/sendung/101_1591501609/Leverage/</link><description><![CDATA[20.10.2022
+        06:30 - 07:20<br>Quarantäne]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1591501609/Leverage/</guid></item><item><dc:subject>RTL
+        Living</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:25:1666243500Z</dc:date><dc:language>de</dc:language><title>RTL
+        Living: Die schönste Braut</title><link>https://www.texxas.de/tv/sendung/101_1591499482/Die+sch%C3%B6nste+Braut/</link><description><![CDATA[20.10.2022
+        06:25 - 07:15<br>Tag 3: Laura, Namborn]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1591499482/Die+sch%C3%B6nste+Braut/</guid></item><item><dc:subject>RTL
+        NITRO</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:35:1666244100Z</dc:date><dc:language>de</dc:language><title>RTL
+        NITRO: Law &amp; Order</title><link>https://www.texxas.de/tv/sendung/101_1591468988/Law+%26amp%3B+Order/</link><description><![CDATA[20.10.2022
+        06:35 - 07:20<br>Verfahrensmängel]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1591468988/Law+%26amp%3B+Order/</guid></item><item><dc:subject>RTL
+        Passion</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:25:1666243500Z</dc:date><dc:language>de</dc:language><title>RTL
+        Passion: Verbotene Liebe Classics</title><link>https://www.texxas.de/tv/sendung/101_1591480135/Verbotene+Liebe+Classics/</link><description><![CDATA[<img
+        src="https://imgtv.texxas.de/sendungen/101_252146662.jpg" alt="Verbotene Liebe
+        Classics" hspace="5" align="left" border="0">20.10.2022 06:25 - 06:50<br>Viktoria
+        ist zwar dankbar, dass Ansgar Kim gerettet hat. Aber ihr wird schnell klar,
+        dass er nun sehr nahe an die Familie herangerückt ist. Thomas hat all sein
+        Misstrauen gegenüber dem Grafen abgelegt und fühlt sich ihm auf immer verbunden.
+        Die Lahnsteins und allen voran Ludwig können nach Kims Rettung nicht lange
+        durchatmen. Denn schon erreicht sie die nächste Hiobsbotschaft: Der Wind hat
+        gedreht und eine Flammenwand rollt auf Königsbrunn zu.]]></description><guid
+        isPermaLink="true">https://www.texxas.de/tv/sendung/101_1591480135/Verbotene+Liebe+Classics/</guid></item><item><dc:subject>RTL
+        PLUS</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:30:1666243800Z</dc:date><dc:language>de</dc:language><title>RTL
+        PLUS: Das Familiengericht</title><link>https://www.texxas.de/tv/sendung/101_1591485312/Das+Familiengericht/</link><description><![CDATA[20.10.2022
+        06:30 - 07:20<br>Dunkle Machenschaften]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1591485312/Das+Familiengericht/</guid></item><item><dc:subject>SAT.1
+        Gold</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:35:1666244100Z</dc:date><dc:language>de</dc:language><title>SAT.1
+        Gold: K 11 - Kommissare im Einsatz</title><link>https://www.texxas.de/tv/sendung/101_1594667060/K+11+-+Kommissare+im+Einsatz/</link><description><![CDATA[20.10.2022
+        06:35 - 07:00<br>Grüße aus Athen]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1594667060/K+11+-+Kommissare+im+Einsatz/</guid></item><item><dc:subject>Servus
+        TV Deutschland</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:00:1666242000Z</dc:date><dc:language>de</dc:language><title>Servus
+        TV Deutschland: Das Wetterpanorama bei ServusTV</title><link>https://www.texxas.de/tv/sendung/100_840f40ee4a40360f/Das+Wetterpanorama+bei+ServusTV/</link><description><![CDATA[20.10.2022
+        06:00 - 09:03<br>ServusTV liefert Ihnen täglich die schönsten Blickwinkel
+        aus dem Alpenraum direkt in Ihr Wohnzimmer. Wir versorgen Sie mit einer aktuellen
+        Wettervorhersage zu jedem Standort und präsentieren laufend die neuesten Meldungen
+        aus der Nachrichtenwelt. Das Wetterpanorama bei Servus TV ? täglich ab 6 Uhr.]]></description><guid
+        isPermaLink="true">https://www.texxas.de/tv/sendung/100_840f40ee4a40360f/Das+Wetterpanorama+bei+ServusTV/</guid></item><item><dc:subject>Silverline</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T05:50:1666241400Z</dc:date><dc:language>de</dc:language><title>Silverline:
+        Die Auserwählten</title><link>https://www.texxas.de/tv/sendung/101_1562204598/Die+Auserw%C3%A4hlten/</link><description><![CDATA[<img
+        src="https://imgtv.texxas.de/sendungen/101_246839316.jpg" alt="Die AuserwÃ¤hlten"
+        hspace="5" align="left" border="0">20.10.2022 05:50 - 07:35<br>Ungarn 1944.
+        Die deutsche Wehrmacht übernimmt im Rahmen der Operation ''Margarethe'' die
+        Kontrolle über das Land und will den Bündnispartner damit zum Durchhalten
+        zwingen. Innerhalb von zwei Monaten werden über 400.000 ungarische Juden in
+        Vernichtungslager deportiert. Der junge Anwalt Sonson muss im Steinbruch arbeiten.
+        Als seine schwerkranke Frau stirbt, weil ihr als Jüdin keine Medikamente mehr
+        verschrieben werden, stürzt er in tiefe Verzweiflung. Als dann auch noch seine
+        Schwägerin J ...]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1562204598/Die+Auserw%C3%A4hlten/</guid></item><item><dc:subject>Sixx</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:25:1666243500Z</dc:date><dc:language>de</dc:language><title>Sixx:
+        Gilmore Girls</title><link>https://www.texxas.de/tv/sendung/101_1594634898/Gilmore+Girls/</link><description><![CDATA[20.10.2022
+        06:25 - 07:15<br>Partyservice]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1594634898/Gilmore+Girls/</guid></item><item><dc:subject>sonnenklar.TV</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T00:00:1666220400Z</dc:date><dc:language>de</dc:language><title>sonnenklar.TV:
+        Infomercial</title><link>https://www.texxas.de/tv/sendung/101_1585078002/Infomercial/</link><description><![CDATA[20.10.2022
+        00:00 - 09:00]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1585078002/Infomercial/</guid></item><item><dc:subject>Tele5</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:25:1666243500Z</dc:date><dc:language>de</dc:language><title>Tele5:
+        Infomercial</title><link>https://www.texxas.de/tv/sendung/101_1594630434/Infomercial/</link><description><![CDATA[20.10.2022
+        06:25 - 07:25]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1594630434/Infomercial/</guid></item><item><dc:subject>TLC</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:05:1666242300Z</dc:date><dc:language>de</dc:language><title>TLC:
+        Der Katzenflüsterer</title><link>https://www.texxas.de/tv/sendung/101_1583956927/Der+Katzenfl%C3%BCsterer/</link><description><![CDATA[<img
+        src="https://imgtv.texxas.de/sendungen/101_252129602.jpg" alt="Der KatzenflÃ¼sterer"
+        hspace="5" align="left" border="0">20.10.2022 06:05 - 07:00<br>Spiel mit mir!<br>Karen
+        ist die Besitzerin von Himalayan-Kater Mr. Weasley, der ein süßer, kleiner
+        Kerl ist - doch seine Zerstörungswut wird immer mehr zum Problem. Weasley
+        zerkratzt alle Polster und macht sämtliche Teppiche kaputt. Wenn sie nach
+        einem langen Arbeitstag müde heimkommt, fordert er gleich ihre Aufmerksamkeit
+        und will spielen, bis Karen schlafen geht. Bleibt sie zu lange weg, wird er
+        sauer und geht an die Einrichtung. Karen hat viel Zeit und Energie investiert,
+        um Weasley glücklich zu mach ...]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1583956927/Der+Katzenfl%C3%BCsterer/</guid></item><item><dc:subject>VOXup</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T05:50:1666241400Z</dc:date><dc:language>de</dc:language><title>VOXup:
+        Unter Beobachtung</title><link>https://www.texxas.de/tv/sendung/101_1591468382/Unter+Beobachtung/</link><description><![CDATA[20.10.2022
+        05:50 - 06:40<br>Ein Mann fürs Leben?]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1591468382/Unter+Beobachtung/</guid></item><item><dc:subject>ZDFneo</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:20:1666243200Z</dc:date><dc:language>de</dc:language><title>ZDFneo:
+        Deutschland in ...</title><link>https://www.texxas.de/tv/sendung/100_3328310c86d41d7a/Deutschland+in+.../</link><description><![CDATA[<img
+        src="https://imgtv.texxas.de/sendungen/332_9184F7B1CF6D38EA38DD4654B478DCBF.jpg"
+        alt="Deutschland in ..." hspace="5" align="left" border="0">20.10.2022 06:20
+        - 07:05<br>Den Goldenen Zwanzigern<br>Goodbye Kaiser - hello Party! In dieser
+        Folge der "Terra X"-Reihe "Deutschland in . . . " mit Mirko Drotschmann nimmt
+        der Historiker die Goldenen Zwanziger unter die Lupe. Vor rund 100 Jahren
+        erleben die Deutschen ein wildes Jahrzehnt. Der Erste Weltkrieg ist zu Ende,
+        das prüde Kaiserreich Geschichte. Vergnügen, Rausch und Tempo bestimmen das
+        neue Lebensgefühl. Es ist ein Aufbruch, aber es gibt auch Schattenseiten.
+        Die Goldenen Zwanziger stehen für Tabufreiheit, Experimentierfreude in Ku
+        ...]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/100_3328310c86d41d7a/Deutschland+in+.../</guid></item><atom:link
+        href="https://www.texxas.de/tv/spartensender.xml" rel="self" type="application/rss+xml"/></channel></rss>'
+  recorded_at: Thu, 20 Oct 2022 04:36:32 GMT
+- request:
+    method: get
+    uri: https://www.texxas.de/tv/kindersenderJetzt.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      server:
+      - nginx/1.10.3
+      date:
+      - Thu, 20 Oct 2022 04:37:20 GMT
+      content-type:
+      - text/xml; charset=ISO-8859-1
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      x-robots-tag:
+      - noindex
+      x-xss-protection:
+      - 1; mode=block
+      x-frame-options:
+      - SAMEORIGIN
+    body:
+      encoding: ISO-8859-1
+      string: |-
+        <?xml version="1.0" encoding="ISO-8859-1"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>teXXas - Kinder, was läuft jetzt?</title><link>https://www.texxas.de/tv/programm/jetzt/kindersender/</link><description>Fernsehprogramm für Kinder, was läuft jetzt?</description><language>de-de</language><pubDate>Wed, 19 Oct 2022 22:00:01 GMT</pubDate><managingEditor>info@texxas.de (teXXas Support)</managingEditor><ttl>5</ttl><sy:updatePeriod>daily</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><sy:updateBase>2022-10-20T06:37:20Z</sy:updateBase><item><dc:subject>KIKA</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:35:1666244100Z</dc:date><dc:language>de</dc:language><title>KIKA: Feuerwehrmann Sam</title><link>https://www.texxas.de/tv/sendung/101_1579027938/Feuerwehrmann+Sam/</link><description><![CDATA[<img src="https://imgtv.texxas.de/sendungen/101_250754610.jpg" alt="Feuerwehrmann Sam" hspace="5" align="left" border="0">20.10.2022 06:35 - 06:45<br>Das doppelte Feuerwerk<br>Das doppelte Feuerwerk
+        In Pontypandy soll ein großes Feuerwerk stattfinden. Das spornt Joe an, ein zweites Feuerwerk mit einer neuen, von ihm entwickelten Maschine abzufeuern. Die Vorführung findet beim Haus der Floods statt. Aber schon bald droht nicht nur deren Haus und der angrenzende Wald in Brand zu geraten, auch Joe und Mike sind in der Garage plötzlich von Flammen eingeschlossen.]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1579027938/Feuerwehrmann+Sam/</guid></item><item><dc:subject>SUPER RTL</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:25:1666243500Z</dc:date><dc:language>de</dc:language><title>SUPER RTL: Ranger Rob</title><link>https://www.texxas.de/tv/sendung/101_1591472779/Ranger+Rob/</link><description><![CDATA[20.10.2022 06:25 - 06:45<br>Der Tier-Spaß-Park-Entdeckungstag]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1591472779/Ranger+Rob/</guid></item><item><dc:subject>Toggo Plus</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:30:1666243800Z</dc:date><dc:language>de</dc:language><title>Toggo Plus: PAW Patrol - Helfer auf vier Pfoten</title><link>https://www.texxas.de/tv/sendung/101_1591504997/PAW+Patrol+-+Helfer+auf+vier+Pfoten/</link><description><![CDATA[20.10.2022 06:30 - 06:50<br>Hund wird zu Huhn / Bürgermeister Besserwisser rennt los]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1591504997/PAW+Patrol+-+Helfer+auf+vier+Pfoten/</guid></item><item><dc:subject>Nick</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:25:1666243500Z</dc:date><dc:language>de</dc:language><title>Nick: Blaze und die Monster-Maschinen</title><link>https://www.texxas.de/tv/sendung/101_1583865883/Blaze+und+die+Monster-Maschinen/</link><description><![CDATA[20.10.2022 06:25 - 06:55<br>Die Eiscreme-Monstermaschine]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1583865883/Blaze+und+die+Monster-Maschinen/</guid></item><item><dc:subject>Nick Jr.</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:30:1666243800Z</dc:date><dc:language>de</dc:language><title>Nick Jr.: Blues Clues und Du</title><link>https://www.texxas.de/tv/sendung/104_12650775302/Blues+Clues+und+Du/</link><description><![CDATA[20.10.2022 06:30 - 06:55<br>Auf Schatzsuche mit Blue<br>2. Staffel, Folge 3: Kapitän McStripes, auch unter dem Namen Josh bekannt, und Blue spielen Piraten. Aber wo ist der Schatz versteckt? Wir spielen Blues Clues und finden es heraus.]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/104_12650775302/Blues+Clues+und+Du/</guid></item><item><dc:subject>Nicktoons</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:30:1666243800Z</dc:date><dc:language>de</dc:language><title>Nicktoons: ALVINNN!!! und die Chipmunks</title><link>https://www.texxas.de/tv/sendung/104_12650989802/ALVINNN%21%21%21+und+die+Chipmunks/</link><description><![CDATA[20.10.2022 06:30 - 06:40<br>Unboxing Day]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/104_12650989802/ALVINNN%21%21%21+und+die+Chipmunks/</guid></item><item><dc:subject>Disney Channel</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:20:1666243200Z</dc:date><dc:language>de</dc:language><title>Disney Channel: Gus - Der klitzekleine Ritter</title><link>https://www.texxas.de/tv/sendung/101_1591478993/Gus+-+Der+klitzekleine+Ritter/</link><description><![CDATA[20.10.2022 06:20 - 06:50<br>Freunde Fürs Leben/ Der kleine Zahn (Friends for Life/ Itsy Bitsy Tooth)<br>Tyler und Arthur haben einen Streit und möchten keine Freunde mehr sein. Um zu schlichten, gibt Gus vor, sein Gedächtnis verloren zu haben. Um sie an ihre Freundschaft zu erinnern, lotst er die beiden in eine Drachenhöhle, wo sie einst ein unfassbares Abenteuer erlebten, doch der Plan geht nicht auf. / Ein Drache verwüstet das Königreich. Papa-König muss sich um die Situation kümmern. Güs würde gerne mithelfen, aber wieder einmal bekommt er gesagt, dass er zu klein für solch eine A ...]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1591478993/Gus+-+Der+klitzekleine+Ritter/</guid></item><item><dc:subject>Junior</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:35:1666244100Z</dc:date><dc:language>de</dc:language><title>Junior: Martin Morgen</title><link>https://www.texxas.de/tv/sendung/104_12571629102/Martin+Morgen/</link><description><![CDATA[20.10.2022 06:35 - 06:50<br>Martin, die kleine Hexe<br>1. Staffel, Folge 24: Martin wacht heute als Hexe auf. Auf dem Weg zur Schule küsst er einen Frosch, der sich in einen Märchenprinzen verwandelt und dann Roxanna den Kopf verdreht. Eifersüchtig versucht Martin sie zurückzugewinnen, doch dazu braucht er einen Liebeszaubertrank. Dummerweise gelangt dieser aber in die Hände des Prinzen, der ihn trinkt und sich auf der Stelle in Hexe Martina verliebt. Nun ist guter Rat teuer?]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/104_12571629102/Martin+Morgen/</guid></item><item><dc:subject>Cartoon Network</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:35:1666244100Z</dc:date><dc:language>de</dc:language><title>Cartoon Network: We Bare Bears - Bären wie wir</title><link>https://www.texxas.de/tv/sendung/104_12664398202/We+Bare+Bears+-+B%C3%A4ren+wie+wir/</link><description><![CDATA[20.10.2022 06:35 - 06:45<br>Wir und der Tag im Park<br>3. Staffel, Folge 44: Die Bären verbringen einen vergnüglichen Tag im Park. Während Grizz Sport macht, versucht Panda, seine Kunstwerke zu verkaufen und Eisbär trainiert ein paar Kinder.]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/104_12664398202/We+Bare+Bears+-+B%C3%A4ren+wie+wir/</guid></item><item><dc:subject>Boomerang</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:35:1666244100Z</dc:date><dc:language>de</dc:language><title>Boomerang: Die Tom und Jerry Show</title><link>https://www.texxas.de/tv/sendung/104_12650200902/Die+Tom+und+Jerry+Show/</link><description><![CDATA[20.10.2022 06:35 - 06:40<br>Es sind die kleinen Dinge<br>4. Staffel, Folge 36: Tom trinkt die Lösung einer alten Frau und schrumft auf Mäusegröße. Er muss Jerry van Mauseling um Hilfe bitten.]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/104_12650200902/Die+Tom+und+Jerry+Show/</guid></item><atom:link href="https://www.texxas.de/tv/kindersender.xml" rel="self" type="application/rss+xml"/></channel></rss>
+  recorded_at: Thu, 20 Oct 2022 04:36:33 GMT
+- request:
+    method: get
+    uri: https://www.texxas.de/tv/hauptsenderJetzt.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      server:
+      - nginx/1.10.3
+      date:
+      - Thu, 20 Oct 2022 04:37:20 GMT
+      content-type:
+      - text/xml; charset=ISO-8859-1
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      x-robots-tag:
+      - noindex
+      x-xss-protection:
+      - 1; mode=block
+      x-frame-options:
+      - SAMEORIGIN
+    body:
+      encoding: ISO-8859-1
+      string: '<?xml version="1.0" encoding="ISO-8859-1"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+        xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>teXXas
+        - Hauptsender, was läuft jetzt?</title><link>https://www.texxas.de/tv/programm/jetzt/hauptsender/</link><description>Fernsehprogramm
+        für Hauptsender, was läuft jetzt?</description><language>de-de</language><pubDate>Wed,
+        19 Oct 2022 22:00:01 GMT</pubDate><managingEditor>info@texxas.de (teXXas Support)</managingEditor><ttl>5</ttl><sy:updatePeriod>daily</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><sy:updateBase>2022-10-20T06:37:20Z</sy:updateBase><item><dc:subject>ARD</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T05:30:1666240200Z</dc:date><dc:language>de</dc:language><title>ARD:
+        ZDF-Morgenmagazin</title><link>https://www.texxas.de/tv/sendung/101_1583675976/ZDF-Morgenmagazin/</link><description><![CDATA[<img
+        src="https://imgtv.texxas.de/sendungen/101_252071531.jpg" alt="ZDF-Morgenmagazin"
+        hspace="5" align="left" border="0">20.10.2022 05:30 - 09:00<br>Das erste Mal
+        auf Sendung ging das Format im Juli 1992, um die Zuschauer über die aktuellen
+        Ereignisse des Zweiten Golfkrieges zu informieren. Heute berichtet es über
+        Wissenschaft, Kultur und Sport.]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1583675976/ZDF-Morgenmagazin/</guid></item><item><dc:subject>ZDF</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T05:30:1666240200Z</dc:date><dc:language>de</dc:language><title>ZDF:
+        ZDF-Morgenmagazin</title><link>https://www.texxas.de/tv/sendung/100_128fb631745b1158/ZDF-Morgenmagazin/</link><description><![CDATA[<img
+        src="https://imgtv.texxas.de/sendungen/128_167B27E1D90FB02B306AC7E7AF271F4D.jpg"
+        alt="ZDF-Morgenmagazin" hspace="5" align="left" border="0">20.10.2022 05:30
+        - 09:00<br>Das "ZDF-Morgenmagazin" - der Blick in den Tag mit aktuellen, hintergründigen
+        Berichten und Gesprächen aus Politik, Wirtschaft, Sport und Kultur. Live aus
+        dem ZDF-Hauptstadtstudio. Halbstündlich informiert die "heute Xpress" aus
+        Mainz. Hinzu kommen Service-Beiträge mit Verbrauchertipps. Im "Moma-Café"
+        treten Musiker live vor Publikum auf.]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/100_128fb631745b1158/ZDF-Morgenmagazin/</guid></item><item><dc:subject>RTL</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:00:1666242000Z</dc:date><dc:language>de</dc:language><title>RTL:
+        Punkt 6</title><link>https://www.texxas.de/tv/sendung/101_1591461942/Punkt+6/</link><description><![CDATA[20.10.2022
+        06:00 - 07:00]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1591461942/Punkt+6/</guid></item><item><dc:subject>SAT.1</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T05:30:1666240200Z</dc:date><dc:language>de</dc:language><title>SAT.1:
+        SAT.1-Frühstücksfernsehen</title><link>https://www.texxas.de/tv/sendung/101_1594627754/SAT.1-Fr%C3%BChst%C3%BCcksfernsehen/</link><description><![CDATA[20.10.2022
+        05:30 - 10:00]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1594627754/SAT.1-Fr%C3%BChst%C3%BCcksfernsehen/</guid></item><item><dc:subject>PRO7</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:30:1666243800Z</dc:date><dc:language>de</dc:language><title>PRO7:
+        Two and a Half Men</title><link>https://www.texxas.de/tv/sendung/101_1602966579/Two+and+a+Half+Men/</link><description><![CDATA[20.10.2022
+        06:30 - 06:55<br>Ich hätte einen Affen nehmen sollen]]></description><guid
+        isPermaLink="true">https://www.texxas.de/tv/sendung/101_1602966579/Two+and+a+Half+Men/</guid></item><item><dc:subject>RTL2</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T05:55:1666241700Z</dc:date><dc:language>de</dc:language><title>RTL2:
+        Der Trödeltrupp - Das Geld liegt im Keller</title><link>https://www.texxas.de/tv/sendung/101_1594629326/Der+Tr%C3%B6deltrupp+-+Das+Geld+liegt+im+Keller/</link><description><![CDATA[20.10.2022
+        05:55 - 06:55<br>Sükrü bei Alexandra und Jennifer]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1594629326/Der+Tr%C3%B6deltrupp+-+Das+Geld+liegt+im+Keller/</guid></item><item><dc:subject>KABEL1</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:20:1666243200Z</dc:date><dc:language>de</dc:language><title>KABEL1:
+        Blue Bloods - Crime Scene New York</title><link>https://www.texxas.de/tv/sendung/101_1594627040/Blue+Bloods+-+Crime+Scene+New+York/</link><description><![CDATA[20.10.2022
+        06:20 - 07:10<br>Achtzehn Jahre]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1594627040/Blue+Bloods+-+Crime+Scene+New+York/</guid></item><item><dc:subject>VOX</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:30:1666243800Z</dc:date><dc:language>de</dc:language><title>VOX:
+        CSI: NY</title><link>https://www.texxas.de/tv/sendung/101_1591478020/CSI%3A+NY/</link><description><![CDATA[20.10.2022
+        06:30 - 07:15<br>Brandzeichen]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1591478020/CSI%3A+NY/</guid></item><atom:link
+        href="https://www.texxas.de/tv/hauptsender.xml" rel="self" type="application/rss+xml"/></channel></rss>'
+  recorded_at: Thu, 20 Oct 2022 04:36:33 GMT
+- request:
+    method: get
+    uri: https://www.texxas.de/tv/nachrichtensenderJetzt.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      server:
+      - nginx/1.10.3
+      date:
+      - Thu, 20 Oct 2022 04:37:20 GMT
+      content-type:
+      - text/xml; charset=ISO-8859-1
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      x-robots-tag:
+      - noindex
+      x-xss-protection:
+      - 1; mode=block
+      x-frame-options:
+      - SAMEORIGIN
+    body:
+      encoding: ISO-8859-1
+      string: '<?xml version="1.0" encoding="ISO-8859-1"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+        xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>teXXas
+        - News und Dokus, was läuft jetzt?</title><link>https://www.texxas.de/tv/programm/jetzt/nachrichtensender/</link><description>Fernsehprogramm
+        für News und Dokus, was läuft jetzt?</description><language>de-de</language><pubDate>Wed,
+        19 Oct 2022 22:00:01 GMT</pubDate><managingEditor>info@texxas.de (teXXas Support)</managingEditor><ttl>5</ttl><sy:updatePeriod>daily</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><sy:updateBase>2022-10-20T06:37:20Z</sy:updateBase><item><dc:subject>tagesschau24</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T05:30:1666240200Z</dc:date><dc:language>de</dc:language><title>tagesschau24:
+        ZDF-Morgenmagazin</title><link>https://www.texxas.de/tv/sendung/100_208b2a8ee00e9fe6/ZDF-Morgenmagazin/</link><description><![CDATA[20.10.2022
+        05:30 - 09:00]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/100_208b2a8ee00e9fe6/ZDF-Morgenmagazin/</guid></item><item><dc:subject>N-TV</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:30:1666243800Z</dc:date><dc:language>de</dc:language><title>N-TV:
+        Telebörse</title><link>https://www.texxas.de/tv/sendung/101_1591506003/Teleb%C3%B6rse/</link><description><![CDATA[20.10.2022
+        06:30 - 06:40]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1591506003/Teleb%C3%B6rse/</guid></item><item><dc:subject>WELT</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:35:1666244100Z</dc:date><dc:language>de</dc:language><title>WELT:
+        Die Welt am Morgen</title><link>https://www.texxas.de/tv/sendung/101_1582981228/Die+Welt+am+Morgen/</link><description><![CDATA[20.10.2022
+        06:35 - 07:00]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1582981228/Die+Welt+am+Morgen/</guid></item><item><dc:subject>N24
+        Doku</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:15:1666242900Z</dc:date><dc:language>de</dc:language><title>N24
+        Doku: Welt der Zukunft: Fusionsenergie</title><link>https://www.texxas.de/tv/sendung/101_1583017824/Welt+der+Zukunft%3A+Fusionsenergie/</link><description><![CDATA[20.10.2022
+        06:15 - 07:10]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1583017824/Welt+der+Zukunft%3A+Fusionsenergie/</guid></item><item><dc:subject>kabel
+        eins Doku</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T05:50:1666241400Z</dc:date><dc:language>de</dc:language><title>kabel
+        eins Doku: Power &amp; Ice - Alaska unter Strom</title><link>https://www.texxas.de/tv/sendung/101_1594638146/Power+%26amp%3B+Ice+-+Alaska+unter+Strom/</link><description><![CDATA[20.10.2022
+        05:50 - 06:40<br>Schaltkreise]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1594638146/Power+%26amp%3B+Ice+-+Alaska+unter+Strom/</guid></item><item><dc:subject>Bloomberg</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:30:1666243800Z</dc:date><dc:language>de</dc:language><title>Bloomberg:
+        Paid Programming</title><link>https://www.texxas.de/tv/sendung/101_1591086348/Paid+Programming/</link><description><![CDATA[20.10.2022
+        06:30 - 07:00]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1591086348/Paid+Programming/</guid></item><item><dc:subject>CNN</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:00:1666242000Z</dc:date><dc:language>de</dc:language><title>CNN:
+        CNN Newsroom with John Vause</title><link>https://www.texxas.de/tv/sendung/101_1576666756/CNN+Newsroom+with+John+Vause/</link><description><![CDATA[20.10.2022
+        06:00 - 06:45<br>Live from Atlanta, John Vause brings context and clarity
+        to the day''s top stories from around the world.]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1576666756/CNN+Newsroom+with+John+Vause/</guid></item><item><dc:subject>ZDF
+        INFO</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:30:1666243800Z</dc:date><dc:language>de</dc:language><title>ZDF
+        INFO: Spektakuläre Kriminalfälle der Nachkriegszeit</title><link>https://www.texxas.de/tv/sendung/100_184ab8eced082fb1/Spektakul%C3%A4re+Kriminalf%C3%A4lle+der+Nachkriegszeit/</link><description><![CDATA[<img
+        src="https://imgtv.texxas.de/sendungen/184_1B9D9C0B9CA8B37D6A06DB05713F0F8F.jpg"
+        alt="SpektakulÃ¤re KriminalfÃ¤lle der Nachkriegszeit" hspace="5" align="left"
+        border="0">20.10.2022 06:30 - 07:20<br>Der Westen<br>Deutschland 1945. Ein
+        Volk steht vor den Trümmern seiner Vergangenheit. Hunger und Not prägen den
+        Alltag. Wozu sind Menschen damals fähig? Und wie machen sich Verbrecher das
+        Chaos zunutze?Millionen Menschen kämpfen in der Nachkriegszeit ums Überleben.
+        Wie weit gehen Menschen in Extremsituationen? Spektakuläre Kriminalfälle zeugen
+        von einer Zeit, in der die Welt aus den Fugen geraten ist. Im Hungerwinter
+        1947 versetzen die "Trümmermorde" ganz Hamburg in Aufruhr. Innerhalb kurzer
+        Zeit  ...]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/100_184ab8eced082fb1/Spektakul%C3%A4re+Kriminalf%C3%A4lle+der+Nachkriegszeit/</guid></item><item><dc:subject>Phoenix</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T05:30:1666240200Z</dc:date><dc:language>de</dc:language><title>Phoenix:
+        phoenix vor ort</title><link>https://www.texxas.de/tv/sendung/100_1242a1ba46e8b747/phoenix+vor+ort/</link><description><![CDATA[20.10.2022
+        05:30 - 08:30<br>ARD-Morgenmagazin]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/100_1242a1ba46e8b747/phoenix+vor+ort/</guid></item><item><dc:subject>Spiegel
+        Geschichte</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:15:1666242900Z</dc:date><dc:language>de</dc:language><title>Spiegel
+        Geschichte: Blutiger Schnee - Das Rätsel vom Djatlow-Pass</title><link>https://www.texxas.de/tv/sendung/104_12581045501/Blutiger+Schnee+-+Das+R%C3%A4tsel+vom+Djatlow-Pass/</link><description><![CDATA[20.10.2022
+        06:15 - 07:00<br>Zwischen den Fronten<br>1. Staffel, Folge 3: Die Sowjetunion
+        war Heimat hunderter verschiedener ethnischer Gruppen, die teils miteinander
+        verfeindet waren. Bald kommt die Theorie auf, dass die Wanderer mit Mitgliedern
+        eines ansässigen Stammes aneinandergeraten sein könnten. Auch internationale
+        Konflikte spitzen sich im Zuge des Kalten Krieges immer weiter zu. Sind russische
+        oder gar US-amerikanische Geheimdienste in den Vorfall verwickelt?]]></description><guid
+        isPermaLink="true">https://www.texxas.de/tv/sendung/104_12581045501/Blutiger+Schnee+-+Das+R%C3%A4tsel+vom+Djatlow-Pass/</guid></item><atom:link
+        href="https://www.texxas.de/tv/nachrichtensender.xml" rel="self" type="application/rss+xml"/></channel></rss>'
+  recorded_at: Thu, 20 Oct 2022 04:36:33 GMT
+- request:
+    method: get
+    uri: https://www.texxas.de/tv/regionalsenderJetzt.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      server:
+      - nginx/1.10.3
+      date:
+      - Thu, 20 Oct 2022 04:37:20 GMT
+      content-type:
+      - text/xml; charset=ISO-8859-1
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      x-robots-tag:
+      - noindex
+      x-xss-protection:
+      - 1; mode=block
+      x-frame-options:
+      - SAMEORIGIN
+    body:
+      encoding: ISO-8859-1
+      string: |-
+        <?xml version="1.0" encoding="ISO-8859-1"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>teXXas - Dritte und Regionalsender, was läuft jetzt?</title><link>https://www.texxas.de/tv/programm/jetzt/regionalsender/</link><description>Fernsehprogramm für Dritte und Regionalsender, was läuft jetzt?</description><language>de-de</language><pubDate>Wed, 19 Oct 2022 22:00:01 GMT</pubDate><managingEditor>info@texxas.de (teXXas Support)</managingEditor><ttl>5</ttl><sy:updatePeriod>daily</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><sy:updateBase>2022-10-20T06:37:20Z</sy:updateBase><item><dc:subject>3SAT</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:20:1666243200Z</dc:date><dc:language>de</dc:language><title>3SAT: Kulturzeit</title><link>https://www.texxas.de/tv/sendung/100_116918b653034d40/Kulturzeit/</link><description><![CDATA[<img src="https://imgtv.texxas.de/sendungen/116_1A45223257F87BD1F9193DEDE8AF70FC.jpg" alt="Kulturzeit" hspace="5" align="left" border="0">20.10.2022 06:20 - 07:00<br>Das 3sat-Kulturmagazin von ZDF, ORF, SRF und ARD<br>"Kulturzeit" ist das werktägliche Kulturmagazin von 3sat. "Kulturzeit" mischt sich in kulturelle und gesellschaftspolitische Fragen ein. Das Magazin bietet Hintergrundinformationen, Porträts und Gespräche zu aktuellen und brisanten Fragen.]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/100_116918b653034d40/Kulturzeit/</guid></item><item><dc:subject>NDR</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:35:1666244100Z</dc:date><dc:language>de</dc:language><title>NDR: Schottland</title><link>https://www.texxas.de/tv/sendung/101_1583331223/Schottland/</link><description><![CDATA[20.10.2022 06:35 - 07:20<br>Herbe Schönheit am Atlantik<br>Geheimnisvolle Burgen an einsamen Seen, im Schottenrock gekleidete Männer mit Dudelsack, Whisky und das Ungeheuer von Loch Ness, das sind die Klischees, die mit Schottland verbunden werden. Nur wenig bekannt ist: Großbritanniens nördlichste Region hat eine faszinierende Natur und Tierwelt zu bieten. Spektakuläre Flugaufnahmen zeigen die Highlands und einige der mehr als 500 Inseln. Hochstabilisierte Kameras und erfahrene Piloten, die schon für die "Harry Potter"-Produktionen im Einsatz  ...]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1583331223/Schottland/</guid></item><item><dc:subject>WDR</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:20:1666243200Z</dc:date><dc:language>de</dc:language><title>WDR: Lokalzeit aus Bonn</title><link>https://www.texxas.de/tv/sendung/101_1584823337/Lokalzeit+aus+Bonn/</link><description><![CDATA[<img src="https://imgtv.texxas.de/sendungen/101_252291684.jpg" alt="Lokalzeit aus Bonn" hspace="5" align="left" border="0">20.10.2022 06:20 - 06:50<br>Hier stehen ausschließlich Themen und Menschen aus der Region im Fokus. Das lokale Nachrichtenmagazin gibt den Zuschauern Aufschluss über alles Wichtige, was in Bonn und Umgebung passiert.]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1584823337/Lokalzeit+aus+Bonn/</guid></item><item><dc:subject>MDR</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:20:1666243200Z</dc:date><dc:language>de</dc:language><title>MDR: Sturm der Liebe</title><link>https://www.texxas.de/tv/sendung/101_1583392143/Sturm+der+Liebe/</link><description><![CDATA[<img src="https://imgtv.texxas.de/sendungen/101_251994604.jpg" alt="Sturm der Liebe" hspace="5" align="left" border="0">20.10.2022 06:20 - 07:10<br>In der beliebten Telenovela rund um das Hotel "Fürstenhof" geht es stets um Liebe mit Hindernissen. Auf tragische Weise können Paare nicht zueinanderfinden. Nicht selten sind dabei Intrigen im Spiel.]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1583392143/Sturm+der+Liebe/</guid></item><item><dc:subject>HR</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:35:1666244100Z</dc:date><dc:language>de</dc:language><title>HR: Max &amp; Maestro (37)</title><link>https://www.texxas.de/tv/sendung/100_163f5c6caf94d71f/Max+%26amp%3B+Maestro+%2837%29/</link><description><![CDATA[20.10.2022 06:35 - 06:45<br>Wiegenlied für Max]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/100_163f5c6caf94d71f/Max+%26amp%3B+Maestro+%2837%29/</guid></item><item><dc:subject>SWR</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:00:1666242000Z</dc:date><dc:language>de</dc:language><title>SWR: SWR3 Morningshow</title><link>https://www.texxas.de/tv/sendung/101_1584445683/SWR3+Morningshow/</link><description><![CDATA[<img src="https://imgtv.texxas.de/sendungen/101_252180803.jpg" alt="SWR3 Morningshow" hspace="5" align="left" border="0">20.10.2022 06:00 - 07:55<br>Visual Radio]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1584445683/SWR3+Morningshow/</guid></item><item><dc:subject>BR</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:30:1666243800Z</dc:date><dc:language>de</dc:language><title>BR: Sturm der Liebe</title><link>https://www.texxas.de/tv/sendung/101_1588951422/Sturm+der+Liebe/</link><description><![CDATA[<img src="https://imgtv.texxas.de/sendungen/101_253299054.jpg" alt="Sturm der Liebe" hspace="5" align="left" border="0">20.10.2022 06:30 - 07:20<br>Als Werner und Robert von dem zweiten Interessenten für das Seegrundstück erfahren und auf ein höheres Angebot drängen, geht der Plan der Schwarzbachs nicht auf. Denn Alexandra und Markus wollten das Grundstück von einem Freund hinter dem Rücken der Saalfelds kaufen lassen. Um nicht aufzufliegen, müssen sie sich nun selbst überbieten.
+        Nachdem Leon Paul wegen des Steinschlags bei der Polizei angezeigt hat, wird Paul verhört und versichert den Beamten, die Steine nicht losgetreten zu  ...]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1588951422/Sturm+der+Liebe/</guid></item><item><dc:subject>SR Fernsehen</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:00:1666242000Z</dc:date><dc:language>de</dc:language><title>SR Fernsehen: Der Kampf um Ford in Saarlouis</title><link>https://www.texxas.de/tv/sendung/100_28389e7187a0c401/Der+Kampf+um+Ford+in+Saarlouis/</link><description><![CDATA[20.10.2022 06:00 - 06:45]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/100_28389e7187a0c401/Der+Kampf+um+Ford+in+Saarlouis/</guid></item><item><dc:subject>RBB</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:00:1666242000Z</dc:date><dc:language>de</dc:language><title>RBB: Guten Morgen Berlin</title><link>https://www.texxas.de/tv/sendung/101_1584434603/Guten+Morgen+Berlin/</link><description><![CDATA[<img src="https://imgtv.texxas.de/sendungen/101_252180203.jpg" alt="Guten Morgen Berlin" hspace="5" align="left" border="0">20.10.2022 06:00 - 08:00<br>rbb 88.8 und mehr]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1584434603/Guten+Morgen+Berlin/</guid></item><item><dc:subject>HH1</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:00:1666242000Z</dc:date><dc:language>de</dc:language><title>HH1: Frühcafé live</title><link>https://www.texxas.de/tv/sendung/101_1591914062/Fr%C3%BChcaf%C3%A9+live/</link><description><![CDATA[20.10.2022 06:00 - 09:00]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1591914062/Fr%C3%BChcaf%C3%A9+live/</guid></item><item><dc:subject>Radio Bremen TV</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:35:1666244100Z</dc:date><dc:language>de</dc:language><title>Radio Bremen TV: Schottland</title><link>https://www.texxas.de/tv/sendung/101_1583331223c/Schottland/</link><description><![CDATA[20.10.2022 06:35 - 07:20<br>Herbe Schönheit am Atlantik<br>Geheimnisvolle Burgen an einsamen Seen, im Schottenrock gekleidete Männer mit Dudelsack, Whisky und das Ungeheuer von Loch Ness, das sind die Klischees, die mit Schottland verbunden werden. Nur wenig bekannt ist: Großbritanniens nördlichste Region hat eine faszinierende Natur und Tierwelt zu bieten. Spektakuläre Flugaufnahmen zeigen die Highlands und einige der mehr als 500 Inseln. Hochstabilisierte Kameras und erfahrene Piloten, die schon für die "Harry Potter"-Produktionen im Einsatz  ...]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1583331223c/Schottland/</guid></item><item><dc:subject>TV Berlin</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:15:1666242900Z</dc:date><dc:language>de</dc:language><title>TV Berlin: Dossier24</title><link>https://www.texxas.de/tv/sendung/101_1589807616/Dossier24/</link><description><![CDATA[20.10.2022 06:15 - 07:00]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1589807616/Dossier24/</guid></item><atom:link href="https://www.texxas.de/tv/regionalsender.xml" rel="self" type="application/rss+xml"/></channel></rss>
+  recorded_at: Thu, 20 Oct 2022 04:36:33 GMT
+- request:
+    method: get
+    uri: https://www.texxas.de/tv/sportsenderJetzt.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      server:
+      - nginx/1.10.3
+      date:
+      - Thu, 20 Oct 2022 04:37:20 GMT
+      content-type:
+      - text/xml; charset=ISO-8859-1
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      x-robots-tag:
+      - noindex
+      x-xss-protection:
+      - 1; mode=block
+      x-frame-options:
+      - SAMEORIGIN
+    body:
+      encoding: ISO-8859-1
+      string: '<?xml version="1.0" encoding="ISO-8859-1"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+        xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>teXXas
+        - Sport, was läuft jetzt?</title><link>https://www.texxas.de/tv/programm/jetzt/sportsender/</link><description>Fernsehprogramm
+        für Sport, was läuft jetzt?</description><language>de-de</language><pubDate>Wed,
+        19 Oct 2022 22:00:01 GMT</pubDate><managingEditor>info@texxas.de (teXXas Support)</managingEditor><ttl>5</ttl><sy:updatePeriod>daily</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><sy:updateBase>2022-10-20T06:37:20Z</sy:updateBase><item><dc:subject>SPORT1</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:30:1666243800Z</dc:date><dc:language>de</dc:language><title>SPORT1:
+        Teleshopping</title><link>https://www.texxas.de/tv/sendung/101_1584342024/Teleshopping/</link><description><![CDATA[20.10.2022
+        06:30 - 07:00]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1584342024/Teleshopping/</guid></item><item><dc:subject>SPORT1+</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T05:40:1666240800Z</dc:date><dc:language>de</dc:language><title>SPORT1+:
+        Eishockey - Svenska Hockeyligan</title><link>https://www.texxas.de/tv/sendung/101_1602234862/Eishockey+-+Svenska+Hockeyligan/</link><description><![CDATA[20.10.2022
+        05:40 - 07:25<br>Växjö Lakers - Leksands IF, 9. Spieltag]]></description><guid
+        isPermaLink="true">https://www.texxas.de/tv/sendung/101_1602234862/Eishockey+-+Svenska+Hockeyligan/</guid></item><item><dc:subject>Eurosport
+        1</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T00:30:1666222200Z</dc:date><dc:language>de</dc:language><title>Eurosport
+        1: Radsport: Giro del Veneto</title><link>https://www.texxas.de/tv/sendung/100_1174f34e7784042d/Radsport%3A+Giro+del+Veneto/</link><description><![CDATA[20.10.2022
+        00:30 - 08:30<br>Radsport, Wh. v. 12.10.2022]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/100_1174f34e7784042d/Radsport%3A+Giro+del+Veneto/</guid></item><item><dc:subject>Eurosport
+        2</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:30:1666243800Z</dc:date><dc:language>de</dc:language><title>Eurosport
+        2: Snooker: Northern Ireland Open in Belfast</title><link>https://www.texxas.de/tv/sendung/100_2169b10597ef2af7/Snooker%3A+Northern+Ireland+Open+in+Belfast/</link><description><![CDATA[20.10.2022
+        06:30 - 08:30<br>Snooker, Wh. v. 19.10.2022]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/100_2169b10597ef2af7/Snooker%3A+Northern+Ireland+Open+in+Belfast/</guid></item><item><dc:subject>Sky
+        Sport News</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T06:00:1666242000Z</dc:date><dc:language>de</dc:language><title>Sky
+        Sport News: Sky Sport News</title><link>https://www.texxas.de/tv/sendung/104_12612338401/Sky+Sport+News/</link><description><![CDATA[20.10.2022
+        06:00 - 09:00<br>Frühreport<br>Sky Sport News, Deutschlands einziger 24-Stunden-Sportnachrichtensender,
+        serviert dir brandheiße News rund um die Uhr.   Hier verpasst du garantiert
+        keine wichtige Sportnachricht mehr!]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/104_12612338401/Sky+Sport+News/</guid></item><item><dc:subject>eSports1</dc:subject><dc:format>text/html</dc:format><dc:date>2022-10-20T05:25:1666239900Z</dc:date><dc:language>de</dc:language><title>eSports1:
+        eSports - Overwatch League</title><link>https://www.texxas.de/tv/sendung/101_1584249323/eSports+-+Overwatch+League/</link><description><![CDATA[20.10.2022
+        05:25 - 10:10<br>OWL, 2022, Countdown Cup Qualifier, Week 4, Tag 2<br>Zum
+        Abschluss der fünften Regular Season steht in der Overwatch League im November
+        wieder der "Countdown Cup" an, über den sich die Teilnehmer für die anschließenden
+        Playoffs qualifizieren können. Dabei treten die besten OWL-Teams im Osten
+        und Westen in separaten Brackets für jede Region gegeneinander an. Dem "Countdown
+        Cup" gehen zunächst die Qualifikationsturniere voraus, die sowohl im Westen
+        als auch im Osten ab Ende September stattfinden.]]></description><guid isPermaLink="true">https://www.texxas.de/tv/sendung/101_1584249323/eSports+-+Overwatch+League/</guid></item><atom:link
+        href="https://www.texxas.de/tv/sportsender.xml" rel="self" type="application/rss+xml"/></channel></rss>'
+  recorded_at: Thu, 20 Oct 2022 04:36:33 GMT
+recorded_with: VCR 6.1.0

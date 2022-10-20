@@ -13,6 +13,16 @@ Gem::Specification.new do |spec|
   spec.summary     = 'What to gawk on the tube?!'
   spec.description = <<~DESC
     #{spec.summary}
+
+    Show what to gawk on the (german) tube, currently. The info is gathered
+    from the RSS feeds of https://www.texxas.de and categorized as following.
+
+      * alternative
+      * kids
+      * main
+      * news
+      * regional
+      * sports
   DESC
   spec.homepage    = 'https://github.com/tschaefer/tube'
   spec.license     = 'MIT'
