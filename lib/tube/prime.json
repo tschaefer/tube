@@ -1,0 +1,8 @@
+{
+    "alternative": "https://www.texxas.de/tv/spartensender.xml",
+    "kids":        "https://www.texxas.de/tv/kindersender.xml",
+    "main":        "https://www.texxas.de/tv/hauptsender.xml",
+    "news":        "https://www.texxas.de/tv/nachrichtensender.xml",
+    "regional":    "https://www.texxas.de/tv/regionalsender.xml",
+    "sports":      "https://www.texxas.de/tv/sportsender.xml"
+}

@@ -1,26 +1,33 @@
 _tube_shows() {
-    local cur prev words cword
+    local cur prev words
     _get_comp_words_by_ref cur prev words cword
 
     local actions='shows'
-    local options='--help --man --version --category'
+    local options='--help --man --version --category --scheduled'
     local categories='alternative kids main news regional sports'
+    local schedules='now prime'
 
     case "$prev" in
         --category)
-            COMPREPLY=($(compgen -W "${categories}" -- "$cur"))
+            mapfile -t COMPREPLY < <(compgen -W "${categories}" -- "$cur")
+            return
+            ;;
+        --scheduled)
+            mapfile -t COMPREPLY < <(compgen -W "${schedules}" -- "$cur")
             return
             ;;
     esac
 
     if [[ "$cur" == -* ]]; then
-        COMPREPLY=($(compgen -W "${options}" -- "$cur"))
+        mapfile -t COMPREPLY < <(compgen -W "${options}" -- "$cur")
         return
     fi
+
+    return
 }
 
 _tube() {
-    local cur prev words cword
+    local cur prev words
     _get_comp_words_by_ref cur prev words cword
 
     local actions='shows'
@@ -43,13 +50,14 @@ _tube() {
             ;;
     esac
 
-
+    local commands
     if [[ "$cur" == -* ]]; then
-        COMPREPLY=($(compgen -W "${options}" -- "$cur"))
-        return
+        commands="$options"
+    else
+        commands="$actions"
     fi
 
-    COMPREPLY=($(compgen -W "${actions}" -- "$cur"))
+    mapfile -t COMPREPLY < <(compgen -W "${commands}" -- "$cur")
 
     return
 }

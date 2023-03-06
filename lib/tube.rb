@@ -4,6 +4,7 @@ require 'json'
 require 'nokogiri'
 require 'faraday'
 require 'tty-table'
+require 'time'
 
 ##
 # Show what to gawk on the (german) tube, currently. The info is gathered from
@@ -33,24 +34,14 @@ module Tube
     # * regional
     # * sports
     #
-    # Optional customized feeds file can be provided.
-    #
     #   tube = Tube.watch('main')
-    def watch(categories = [], file = nil)
-      file ||= "#{File.dirname(__FILE__)}/tube/feeds.json"
-      feeds = JSON.parse(File.read(file))
-
-      urls = categories.map do |category|
-        url = feeds[category]
-        raise ArgumentError, "Unknown category '#{category}'" if !url
-
-        url
-      end
-      urls = feeds.values if urls.empty?
+    def watch(categories: [], scheduled: 'now')
+      @categories = categories.map(&:downcase)
+      @scheduled = scheduled.downcase
 
       @shows = []
-      urls.each do |url|
-        @shows += build_shows(url)
+      urls(feeds).each do |url|
+        @shows += info(url)
       end
 
       self
@@ -103,7 +94,7 @@ module Tube
 
     private
 
-    def build_shows(url)
+    def info(url)
       rss = Faraday.get(url).body
       feed = Nokogiri::XML(rss)
 
@@ -112,11 +103,42 @@ module Tube
         shows << Show.new(
           item.xpath('dc:subject').text,
           item.xpath('title').text.gsub(/^.+: /, ''),
-          DateTime.parse(item.xpath('dc:date').text.gsub(/:\d+Z$/, ''))
+          start_time(item)
         )
       end
 
       shows
+    end
+
+    def start_time(item)
+      strtime = case @scheduled
+                when 'prime'
+                  item.xpath('description').text.match(/\d{2}\.\d{2}\.\d{4} (\d{2}:\d{2})/)
+                  ::Regexp.last_match(1)
+                when 'now'
+                  item.xpath('dc:date').text.gsub(/:\d+Z$/, '')
+                end
+
+      Time.parse(strtime)
+    end
+
+    def feeds
+      file = "#{File.dirname(__FILE__)}/tube/#{@scheduled}.json"
+      raise ArgumentError, "Unknown scheduled '#{@scheduled}'" if !File.exist?(file)
+
+      JSON.parse(File.read(file))
+    end
+
+    def urls(feeds)
+      urls = @categories.map do |category|
+        url = feeds[category]
+        raise ArgumentError, "Unknown category '#{category}'" if !url
+
+        url
+      end
+      urls = feeds.values if urls.empty?
+
+      urls
     end
   end
 end

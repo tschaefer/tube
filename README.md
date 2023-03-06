@@ -4,8 +4,8 @@ What to gawk on the tube?!
 
 ## Introduction
 
-**tube** shows current german television schedule. The needed information
-is gathered from https://texxas.de
+**tube** shows current and prime time german television schedule. The needed
+information is gathered from https://texxas.de
 
 ## Installation
 

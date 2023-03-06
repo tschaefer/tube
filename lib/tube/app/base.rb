@@ -45,8 +45,8 @@ module Tube
         exit(0)
       end
 
-      def tube(categories = [])
-        Tube.watch(categories)
+      def tube(categories:, scheduled:)
+        Tube.watch(categories:, scheduled:)
       rescue StandardError => e
         bailout(e)
       end
