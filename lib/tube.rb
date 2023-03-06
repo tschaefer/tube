@@ -16,6 +16,7 @@ module Tube
     Show = Struct.new('Show', :channel, :title, :started)
     # :doc:
 
+    ##
     # List of shows represented by simple struct.
     #
     # * channel
@@ -24,6 +25,7 @@ module Tube
     #
     attr_reader :shows
 
+    ##
     # Create new object with list of shows of **all** channels or categorized
     # following:
     #
@@ -34,19 +36,19 @@ module Tube
     # * regional
     # * sports
     #
+    # and scheduled following:
+    #
+    # * now, default
+    # * prime
+    #
     #   tube = Tube.watch('main')
     def watch(categories: [], scheduled: 'now')
-      @categories = categories.map(&:downcase)
-      @scheduled = scheduled.downcase
-
-      @shows = []
-      urls(feeds).each do |url|
-        @shows += info(url)
-      end
+      @shows = build_shows(categories.map(&:downcase), scheduled.downcase)
 
       self
     end
 
+    ##
     # Return shows schedule in wanted format.
     #
     # * table
@@ -63,6 +65,7 @@ module Tube
       end
     end
 
+    ##
     # Return shows schedule as JSON.
     def to_json(_obj = nil)
       hash = {}
@@ -72,6 +75,7 @@ module Tube
       hash.to_json
     end
 
+    ##
     # Return shows schedule as table.
     def to_table
       headers = %w[CHANNEL SHOW STARTED]
@@ -94,8 +98,20 @@ module Tube
 
     private
 
-    def info(url)
-      rss = Faraday.get(url).body
+    def build_shows(categories, scheduled)
+      feeds = get_scheduled_feeds(scheduled)
+      urls  = get_feed_urls_by_categories(feeds, categories)
+
+      shows = []
+      urls.each do |url|
+        shows += get_shows_info(url, scheduled)
+      end
+
+      shows
+    end
+
+    def get_shows_info(url, scheduled)
+      rss  = Faraday.get(url).body
       feed = Nokogiri::XML(rss)
 
       shows = []
@@ -103,42 +119,38 @@ module Tube
         shows << Show.new(
           item.xpath('dc:subject').text,
           item.xpath('title').text.gsub(/^.+: /, ''),
-          start_time(item)
+          determine_show_start_time(item, scheduled)
         )
       end
 
       shows
     end
 
-    def start_time(item)
-      strtime = case @scheduled
-                when 'prime'
-                  item.xpath('description').text.match(/\d{2}\.\d{2}\.\d{4} (\d{2}:\d{2})/)
-                  ::Regexp.last_match(1)
-                when 'now'
-                  item.xpath('dc:date').text.gsub(/:\d+Z$/, '')
-                end
-
-      Time.parse(strtime)
+    def determine_show_start_time(item, scheduled)
+      Time.parse(
+        case scheduled
+        when 'prime'
+          item.xpath('description').text.match(/\d{2}\.\d{2}\.\d{4} (\d{2}:\d{2})/)
+          ::Regexp.last_match(1)
+        when 'now'
+          item.xpath('dc:date').text.gsub(/:\d+Z$/, '')
+        end
+      )
     end
 
-    def feeds
-      file = "#{File.dirname(__FILE__)}/tube/#{@scheduled}.json"
-      raise ArgumentError, "Unknown scheduled '#{@scheduled}'" if !File.exist?(file)
+    def get_scheduled_feeds(scheduled)
+      file = "#{File.dirname(__FILE__)}/tube/#{scheduled}.json"
+      raise ArgumentError, "Unknown scheduled '#{scheduled}'" if !File.exist?(file)
 
       JSON.parse(File.read(file))
     end
 
-    def urls(feeds)
-      urls = @categories.map do |category|
-        url = feeds[category]
-        raise ArgumentError, "Unknown category '#{category}'" if !url
+    def get_feed_urls_by_categories(feeds, categories)
+      return feeds.values if categories.empty?
 
-        url
+      categories.map do |category|
+        feeds[category] || (raise ArgumentError, "Unknown category '#{category}'")
       end
-      urls = feeds.values if urls.empty?
-
-      urls
     end
   end
 end
