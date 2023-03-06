@@ -67,6 +67,7 @@ GEM
       tty-screen (~> 0.8)
     unicode-display_width (2.1.0)
     unicode_utils (1.4.0)
+    vcr (6.1.0)
 
 PLATFORMS
   x86_64-linux
@@ -80,6 +81,7 @@ DEPENDENCIES
   rubocop-rspec
   simplecov
   tty-table
+  vcr
 
 BUNDLED WITH
    2.3.15
