@@ -6,9 +6,10 @@ require 'tube'
 
 RSpec.describe Tube do
   let(:categories) { [] }
+  let(:scheduled) { 'now' }
   let(:tube) do
     VCR.use_cassette('watch', record: :new_episodes) do
-      described_class.watch(categories)
+      described_class.watch(categories:, scheduled:)
     end
   end
 
@@ -34,6 +35,14 @@ RSpec.describe Tube do
       it 'returns an object', :aggregate_failures do
         expect(tube).to be_an_instance_of(Module)
         expect(tube.shows).to be_an(Array)
+      end
+    end
+
+    context 'when scheduled is unknown' do
+      let(:scheduled) { 'unknown' }
+
+      it 'raises an error' do
+        expect { tube }.to raise_error(ArgumentError)
       end
     end
   end
