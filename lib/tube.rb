@@ -77,10 +77,11 @@ module Tube
 
     ##
     # Return shows schedule as table.
-    def to_table
+    def to_table # rubocop:disable Metrics/AbcSize
       headers = %w[CHANNEL SHOW STARTED]
       rows = @shows.map do |show|
-        [show.channel, show.title, show.started.strftime('%R')]
+        title = show.title.length >= 40 ? "#{show.title[0..37]}..." : show.title
+        [show.channel, title, show.started.strftime('%R')]
       end
       table = TTY::Table.new(headers, rows)
 
