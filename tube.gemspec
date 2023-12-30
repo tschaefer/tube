@@ -36,4 +36,11 @@ Gem::Specification.new do |spec|
   spec.metadata['rubygems_mfa_required'] = 'true'
   spec.metadata['source_code_uri']       = 'https://github.com/tschaefer/tube'
   spec.metadata['bug_tracker_uri']       = 'https://github.com/tschaefer/tube/issues'
+
+  spec.post_install_message = 'All your tube are belong to us!'
+
+  spec.add_dependency 'clamp', '~> 1.3.2'
+  spec.add_dependency 'faraday', '~> 2.8.1'
+  spec.add_dependency 'nokogiri', '~> 1.16.0'
+  spec.add_dependency 'tty-table', '~> 0.12.0'
 end

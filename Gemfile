@@ -1,16 +1,21 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
-
-gem 'clamp'
-gem 'faraday'
-gem 'nokogiri'
-gem 'tty-table'
+gemspec
 
 group :development, :test do
+  gem 'rake'
+
+  gem 'pry'
+  gem 'pry-byebug'
+  gem 'pry-doc'
+
   gem 'rspec'
+
   gem 'rubocop'
   gem 'rubocop-rspec'
+
   gem 'simplecov'
+
   gem 'vcr'
 end
